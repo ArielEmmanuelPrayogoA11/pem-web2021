@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Getting Good</title>
+</head>
+<body>
+    <section class="showcase">
+        <header>
+            <h2 class="logo">There are Worlds Beyond My Own</h2>
+            <div class="toggle"></div>
+        </header>
+
+        <video src="sun.mp4" muted loop autoplay></video>
+
+        <div class="overlay"></div>
+        <div class="text">
+            <h2>Never Stop</h2>
+            <h3>Grind your way into victory</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni debitis reprehenderit, 
+                voluptate ex aperiam praesentium. Illo similique assumenda voluptatem, dicta numquam quis 
+                aliquam voluptate! Consequuntur error cum quasi dicta corrupti!
+            </p>
+            <a href="#">Enter the Multiverse</a>
+        </div>
+
+        <ul class="social">
+
+            <li><a href="#"><img src="whatsapp.png" style="width: 100px; height: 100px;"></a></li>
+            <li><a href="#"><img src="facebook.png" style="width: 100px; height: 100px;"></a></li>
+        </ul>
+        </section>
+
+            <div class="menu">
+               <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Events</a></li>
+                <li><a href="#">News</a></li>
+                <li><a href="#">Coupons</a></li>
+                <li><a href="#">Contact</a></li>
+               </ul>   
+            </div>
+
+            <script>
+                const menuToggle = document.querySelector('.toggle')
+                const showcase = document.querySelector('.showcase')
+
+                menuToggle.addEventListener('click', function()  {
+                    menuToggle.classList.toggle('active')
+                    showcase.classList.toggle('active')
+                })
+            </script>
+
+    
+    
+    
+    
+</body>
+</html>
