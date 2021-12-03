@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Percabangan switch case</title>
+</head>
+<body>
+
+    <script>
+
+        var jawab = prompt("Kamu beruntung! Pilih hadiah angka 1 - 4")
+        var hadiah ="";
+
+        switch(jawab){
+            case "1": hadiah = " Kulkas 15 pintu";
+                break;
+            case "2": hadiah = " Emas 100gram";
+                break;
+            case "3": hadiah = " 50 Tas Gunung";
+                break;
+            case "4": hadiah = " 2 Unit Sepeda Motor";
+                break;
+            default: document.write("<p>Input salah! :(  Kamu seharusnya menginput angka 1 - 4!</p>");          
+        }
+
+        if (hadiah == ""){
+            document.write("<p>Kamu gagal mendapat hadiah</p>");
+        } else {
+            document.write("<h2>Selamat kamu dapat" + hadiah + "</h2>");
+        }
+
+    </script>
+    
+</body>
+</html>
